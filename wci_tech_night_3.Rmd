@@ -21,8 +21,9 @@ options(htmltools.dir.version = FALSE)
 ```{r xaringan-themer, include=FALSE}
 library(xaringanthemer)
 solarized_light(
-  text_font_family = "Fira Code",
+  text_font_family = "Noto Sans JP",
   text_font_size = "28px",
+  text_font_url = "https://fonts.googleapis.com/css?family=Noto+Sans+JP",
   code_font_size = "24px", 
   code_font_family = "Fira Code",
   code_font_url    = "https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css"
